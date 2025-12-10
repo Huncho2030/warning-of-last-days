@@ -11,10 +11,10 @@ export function StudiesPage() {
 
   const topics = [
     { id: 'all', name: 'All Topics', color: 'blue' },
-    { id: 'hali-ya-wafu', name: 'State of the Dead', color: 'indigo' },
-    { id: 'ubatizo', name: 'True Baptism', color: 'purple' },
-    { id: 'imani', name: ' Faith', color: 'pink' },
-    { id: 'unabii', name: 'Prophecy', color: 'amber' },
+    { id: 'state of the dead', name: 'State of the dead', color: 'blue' },
+    { id: 'baptism', name: 'True Baptism', color: 'blue' },
+    { id: 'faith', name: ' Faith', color: 'blue' },
+    { id: 'prophecy', name: 'Prophecy', color: 'blue' },
   ];
 
   const prophecyCategories = [
@@ -27,7 +27,7 @@ export function StudiesPage() {
     {
       id: 1,
       title: 'State of the Dead - Part 1',
-      topic: 'hali-ya-wafu',
+      topic: 'state of the dead',
       category: 'doctrine',
       duration: '45:20',
       description:
@@ -38,7 +38,7 @@ export function StudiesPage() {
     {
       id: 2,
       title: 'State of the Dead - Part 2',
-      topic: 'hali-ya-wafu',
+      topic: 'state of the dead',
       category: 'doctrine',
       duration: '42:15',
       description:
@@ -49,7 +49,7 @@ export function StudiesPage() {
     {
       id: 3,
       title: "Daniel's Vision of the Four Kingdoms",
-      topic: 'unabii',
+      topic: 'prophecy',
       category: 'daniel',
       duration: '52:30',
       description:
@@ -60,7 +60,7 @@ export function StudiesPage() {
     {
       id: 4,
       title: 'Daniel 7 - The Four Beasts',
-      topic: 'unabii',
+      topic: 'prophecy',
       category: 'daniel',
       duration: '48:45',
       description:
@@ -71,7 +71,7 @@ export function StudiesPage() {
     {
       id: 5,
       title: 'True Baptism - Biblical Insights',
-      topic: 'ubatizo',
+      topic: 'baptism',
       category: 'doctrine',
       duration: '38:20',
       description: 'Biblical teaching on the true mode and meaning of baptism.',
@@ -81,7 +81,7 @@ export function StudiesPage() {
     {
       id: 6,
       title: 'True Faith',
-      topic: 'imani',
+      topic: 'faith',
       category: 'doctrine',
       duration: '41:15',
       description:
@@ -92,7 +92,7 @@ export function StudiesPage() {
     {
       id: 7,
       title: 'Revelation 13 - The Two Beasts',
-      topic: 'unabii',
+      topic: 'prophecy',
       category: 'revelation',
       duration: '55:40',
       description:
@@ -103,7 +103,7 @@ export function StudiesPage() {
     {
       id: 8,
       title: "Revelation 14 - The Three Angels' Messages",
-      topic: 'unabii',
+      topic: 'prophecy',
       category: 'revelation',
       duration: '50:25',
       description:

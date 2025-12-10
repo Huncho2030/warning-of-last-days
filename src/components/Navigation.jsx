@@ -14,14 +14,14 @@ export default function Navigation() {
     { name: 'Introduction', path: '/introduction' },
     {
       name: 'Studies',
-      path: '/studies',
-      hasDropdown: true,
-      dropdownItems: [
-        { name: 'State of Death', path: '/studies?topic=state-of-death' },
-        { name: 'True Baptism', path: '/studies?topic=baptism' },
-        { name: 'True Faith', path: '/studies?topic=faith' },
-        { name: 'Prophecy', path: '/studies?topic=prophecy' },
-      ],
+      path: '/studies'
+      // hasDropdown: true,
+      // dropdownItems: [
+      //   { name: 'State of Death', path: '/studies?topic=state-of-death' },
+      //   { name: 'True Baptism', path: '/studies?topic=baptism' },
+      //   { name: 'True Faith', path: '/studies?topic=faith' },
+      //   { name: 'Prophecy', path: '/studies?topic=prophecy' },
+      // ],
     },
     { name: 'Bookshop', path: '/bookshop' },
     { name: 'Medical Missionary', path: '/medical-missionary' },

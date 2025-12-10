@@ -59,10 +59,10 @@ export function SchoolPreview() {
               <div className="bg-white/80 backdrop-blur-sm border border-amber-200 rounded-xl p-6 mb-6">
                 <p className="text-slate-700">
                   <span className="text-amber-600">
-                    "True education means more than the pursual of a certain
+                    True education means more than the pursual of a certain
                     course of study. It means more than a preparation for the
                     life that now is. It has to do with the whole being, and
-                    with the whole period of existence possible to man."
+                    with the whole period of existence possible to man.
                   </span>
                   <span className="text-slate-500 text-sm block mt-2">
                     — Education, p. 13

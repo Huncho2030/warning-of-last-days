@@ -44,7 +44,7 @@ export function IntroductionPage() {
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-white mb-6">About Our Ministry</h1>
             <p className="text-xl text-blue-100">
-              Dedicated to spreading the three angels' messages through
+              Dedicated to spreading the three angels&apos; messages through
               education, health, and biblical truth
             </p>
           </div>
@@ -81,9 +81,9 @@ export function IntroductionPage() {
 
             <div className="bg-white rounded-xl shadow-lg p-8 mb-8">
               <p className="text-slate-700 leading-relaxed mb-6">
-                The Medical Missionary Ministry was established in 2010 with a
+                Warning of Last days Ministry was established in 2010 with a
                 divine calling to restore and proclaim present truth in these
-                final days of Earth's history. Inspired by the counsel found in
+                final days of Earth&apos;s history. Inspired by the counsel found in
                 the Spirit of Prophecy and the example of the early Seventh-day
                 Adventist pioneers, our ministry combines three essential
                 elements: biblical education, health reform, and practical
@@ -91,11 +91,11 @@ export function IntroductionPage() {
               </p>
               <p className="text-slate-700 leading-relaxed mb-6">
                 We recognized that many souls were perishing for lack of
-                knowledge of God's truth, especially regarding the state of the
+                knowledge of God&apos;s truth, especially regarding the state of the
                 dead, true Sabbath observance, the sanctuary message, and the
                 prophecies that reveal our place in history. At the same time,
                 people were suffering from preventable diseases due to ignorance
-                of God's natural laws of health.
+                of God&apos;s natural laws of health.
               </p>
               <p className="text-slate-700 leading-relaxed">
                 What began as small Bible study meetings has grown into a
@@ -140,7 +140,7 @@ export function IntroductionPage() {
               <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-xl border border-blue-100">
                 <h3 className="text-blue-900 mb-4">Mission Statement</h3>
                 <p className="text-slate-700 leading-relaxed">
-                  To proclaim the everlasting gospel and the three angels'
+                  To proclaim the everlasting gospel and the three angels&apos;
                   messages, calling people out of Babylon and preparing them for
                   the second coming of Jesus Christ through biblical teaching,
                   health ministry, and Christian education.
@@ -150,7 +150,7 @@ export function IntroductionPage() {
               <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-xl border border-blue-100">
                 <h3 className="text-blue-900 mb-4">Vision Statement</h3>
                 <p className="text-slate-700 leading-relaxed">
-                  To be a faithful remnant ministry that upholds all of God's
+                  To be a faithful remnant ministry that upholds all of God&apos;s
                   commandments and the testimony of Jesus, equipping believers
                   with present truth and practical skills for soul-winning work.
                 </p>
@@ -164,7 +164,7 @@ export function IntroductionPage() {
                   <Heart className="w-8 h-8 text-blue-300 mb-3" />
                   <h4 className="text-white mb-2">Love for Souls</h4>
                   <p className="text-blue-200 text-sm">
-                    Passionate about winning souls for God's kingdom
+                    Passionate about winning souls for God&apos;s kingdom
                   </p>
                 </div>
                 <div>
@@ -188,7 +188,7 @@ export function IntroductionPage() {
       </section>
 
       {/* News Panel */}
-      <section className="py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+      {/* <section className="py-16 bg-gradient-to-br from-slate-50 to-blue-50">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-center gap-3 mb-8">
@@ -223,7 +223,7 @@ export function IntroductionPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

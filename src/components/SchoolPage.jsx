@@ -31,7 +31,7 @@ export function SchoolPage() {
       title: 'Character Development',
       description:
         'Focus on developing Christian character through daily devotions, service projects, and modeling Christ-like behavior.',
-      color: 'pink',
+      color: 'red',
     },
     {
       icon: Award,
@@ -113,12 +113,12 @@ export function SchoolPage() {
                   </p>
                   <div className="bg-white rounded-xl p-6 border-l-4 border-amber-500">
                     <p className="text-slate-700 italic">
-                      "True education means more than the pursual of a certain
+                      True education means more than the pursual of a certain
                       course of study. It means more than a preparation for the
                       life that now is. It has to do with the whole being, and
                       with the whole period of existence possible to man. It is
                       the harmonious development of the physical, the mental,
-                      and the spiritual powers."
+                      and the spiritual powers.
                     </p>
                     <p className="text-amber-600 mt-3">— Education, p. 13</p>
                   </div>
@@ -189,7 +189,7 @@ export function SchoolPage() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-amber-900 mb-8 text-center">Campus Life</h2>
+            <h2 className="text-amber-900 mb-8 text-center">School Life</h2>
             <div className="grid md:grid-cols-2 gap-6">
               {gallery.map((item) => (
                 <div
@@ -256,7 +256,7 @@ export function SchoolPage() {
                     </div>
                     <div>
                       <p className="text-amber-100 mb-1">Email</p>
-                      <p className="text-white">school@gilgalchristians.org</p>
+                      <p className="text-white">vincentmoriancho@gmail.com</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
@@ -307,7 +307,7 @@ export function SchoolPage() {
                   </div>
                   <div>
                     <label className="block text-slate-700 mb-2">
-                      Child's Age/Grade
+                      Child&apos;s Age/Grade
                     </label>
                     <input
                       type="text"

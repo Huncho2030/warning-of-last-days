@@ -28,11 +28,12 @@ export default [
     },
 
     rules: {
-      ...pluginReactHooks.configs.recommended.rules,
+  ...pluginReactHooks.configs.recommended.rules,
 
-  
-      "react/react-in-jsx-scope": "off"
-    }
+  "react/react-in-jsx-scope": "off",
+  "react/prop-types": "off"
+}
+
   },
 
   eslintConfigPrettier

@@ -15,7 +15,7 @@ export default function About() {
             <h2 className="text-4xl mb-6 text-gray-900">About Our Ministry</h2>
             <p className="text-gray-600 mb-6">
               Warning of Last Days Ministry is a vibrant community of believers
-              dedicated to sharing God's love and truth. We are part of the
+              dedicated to sharing God&apos;s love and truth. We are part of the
               Seventh-day Adventist Church, a global movement committed to
               living out the teachings of Jesus Christ.
             </p>
@@ -36,7 +36,7 @@ export default function About() {
                 <div>
                   <h3 className="mb-2 text-gray-900">Love & Compassion</h3>
                   <p className="text-gray-600">
-                    We strive to reflect Christ's love in everything we do,
+                    We strive to reflect Christ&apos;s love in everything we do,
                     caring for our community and beyond.
                   </p>
                 </div>
@@ -51,7 +51,7 @@ export default function About() {
                 <div>
                   <h3 className="mb-2 text-gray-900">Biblical Truth</h3>
                   <p className="text-gray-600">
-                    We base our beliefs and practices on the Bible, God's
+                    We base our beliefs and practices on the Bible, God&apos;s
                     inspired word.
                   </p>
                 </div>

@@ -19,9 +19,10 @@ export function Footer() {
   ];
 
   const socialLinks = [
-    { name: 'YouTube', icon: Youtube, url: 'https://youtube.com' },
+    { name: 'YouTube', icon: Youtube, url: 'https://www.youtube.com/@11THHOUR-et9fg' },
     { name: 'Facebook', icon: Facebook, url: 'https://facebook.com' },
-    { name: 'Instagram', icon: Instagram, url: 'https://instagram.com' },
+    // { name: 'Instagram', icon: Instagram, url: 'https://instagram.com' },
+    { name: 'Phone', icon: Phone, url: 'tel:+254712376198' },
   ];
 
   return (
@@ -68,7 +69,7 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-blue-200 text-sm">
                 <Mail className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                <span>info@warningoflastdaysministry.org</span>
+                <span>vincentmoriancho@gmail.com</span>
               </li>
               <li className="flex items-start gap-2 text-blue-200 text-sm">
                 <Phone className="w-4 h-4 mt-0.5 flex-shrink-0" />

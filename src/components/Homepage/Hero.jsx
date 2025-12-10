@@ -21,7 +21,7 @@ export function Hero() {
           Warning of Last Days Ministry
         </h1>
         <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-2xl mx-auto">
-          Spreading Truth, Health, and Education Through God's Word
+          Spreading Truth, Health, and Education Through God&apos;s Word
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link

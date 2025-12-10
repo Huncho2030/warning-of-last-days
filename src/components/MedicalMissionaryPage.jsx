@@ -1,7 +1,52 @@
-import { Leaf, Droplet, Sun, Heart, Wind, Apple } from 'lucide-react';
+import {
+  Leaf,
+  Droplet as DropletIcon,
+  Sun as SunIcon,
+  Heart as HeartIcon,
+  Wind,
+  Apple as AppleIcon,
+} from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 
 export function MedicalMissionaryPage() {
+  const colorMap = {
+    green: {
+      light: "from-green-50",
+      border: "border-green-100",
+      circle: "from-green-500 to-green-600",
+      text: "text-green-900",
+    },
+    blue: {
+      light: "from-blue-50",
+      border: "border-blue-100",
+      circle: "from-blue-500 to-blue-600",
+      text: "text-blue-900",
+    },
+    amber: {
+      light: "from-amber-50",
+      border: "border-amber-100",
+      circle: "from-amber-500 to-amber-600",
+      text: "text-amber-900",
+    },
+    cyan: {
+      light: "from-cyan-50",
+      border: "border-cyan-100",
+      circle: "from-cyan-500 to-cyan-600",
+      text: "text-cyan-900",
+    },
+    red: {
+      light: "from-red-50",
+      border: "border-red-100",
+      circle: "from-red-500 to-red-600",
+      text: "text-red-900",
+    },
+    pink: {
+      light: "from-pink-50",
+      border: "border-pink-100",
+      circle: "from-pink-500 to-pink-600",
+      text: "text-pink-900",
+    },
+  };
   const remedyCategories = [
     {
       icon: Leaf,
@@ -10,13 +55,13 @@ export function MedicalMissionaryPage() {
       color: 'green',
     },
     {
-      icon: Droplet,
+      icon: DropletIcon,
       title: 'Hydrotherapy',
       description: 'Water treatments for healing',
       color: 'blue',
     },
     {
-      icon: Sun,
+      icon: SunIcon,
       title: 'Sunshine Therapy',
       description: 'Benefits of natural sunlight',
       color: 'amber',
@@ -28,13 +73,13 @@ export function MedicalMissionaryPage() {
       color: 'cyan',
     },
     {
-      icon: Apple,
+      icon: AppleIcon,
       title: 'Nutrition',
       description: 'Plant-based diet principles',
       color: 'red',
     },
     {
-      icon: Heart,
+      icon: HeartIcon,
       title: 'Lifestyle Medicine',
       description: 'Preventive health practices',
       color: 'pink',
@@ -112,7 +157,7 @@ export function MedicalMissionaryPage() {
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-white mb-6">Medical Missionary Work</h1>
             <p className="text-xl text-green-100">
-              Healing body, mind, and soul through God's natural remedies
+              Healing body, mind, and soul through God&apos;s natural remedies
             </p>
           </div>
         </div>
@@ -128,14 +173,14 @@ export function MedicalMissionaryPage() {
                 <p>
                   Medical missionary work is the right arm of the gospel. It
                   opens doors for the proclamation of present truth and
-                  demonstrates God's love in practical ways. Through simple,
+                  demonstrates God&apos;s love in practical ways. Through simple,
                   natural remedies, we can help people experience the healing
                   power that God has placed in nature.
                 </p>
                 <p>
-                  "The work of health reform is the Lord's means for lessening
+                  The work of health reform is the Lord&apos;s means for lessening
                   suffering in our world... It is to prepare a people for the
-                  coming of the Lord."
+                  coming of the Lord.
                   <span className="text-green-600 italic block mt-2">
                     — Ellen G. White, Testimonies, Vol. 7, p. 136
                   </span>

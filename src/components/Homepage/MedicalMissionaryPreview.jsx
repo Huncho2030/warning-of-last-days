@@ -42,7 +42,7 @@ export function MedicalMissionaryPreview() {
               <h2 className="text-blue-900 mb-4">Medical Missionary Work</h2>
               <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-blue-400 mb-6"></div>
               <p className="text-slate-600 leading-relaxed mb-8">
-                Discover God's natural remedies for healing and health. We teach
+                Discover God&apos;s natural remedies for healing and health. We teach
                 practical methods using herbs, water treatments, proper
                 nutrition, and lifestyle changes based on biblical principles
                 and the Spirit of Prophecy.

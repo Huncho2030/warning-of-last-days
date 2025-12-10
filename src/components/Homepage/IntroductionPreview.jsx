@@ -19,7 +19,7 @@ export function IntroductionPreview() {
               <h3 className="text-blue-900 mb-3">Our History</h3>
               <p className="text-slate-600 leading-relaxed">
                 Founded on the principles of health reform and biblical truth,
-                our ministry has been dedicated to spreading the three angels'
+                our ministry has been dedicated to spreading the three angels&apos;
                 messages and promoting natural healing methods for over a
                 decade.
               </p>
